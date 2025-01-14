@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Talent Class School</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <span><b>TALENT PLUS ACADEMY</b></span>
+    <img src="images/TPLUS.PNG.png" alt="Talent Class School Logo" class="logo">
+    <h1>Teacher Data Collection Form</h1>
+</div>
+ <div class="container">
+
+  <form id="teacher-form" name="teacher-form">
+    <div class="form-group">
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first-name" name="data[first-name]" required >
+      </div>
+      <div class="form-group">
+        <label for="surname">Surname:</label>
+        <input type="text" id="surname" name="data[surname]">
+      </div>
+      <div class="form-group">
+        <label for="other-names">Other Names:</label>
+        <input type="text" id="other-names" name="data[other-names]">
+      </div>
+      <div class="form-group">
+        <label for="sex">Sex:</label>
+        <select id="sex" name="data[sex]"required>
+          <option value="" disabled selected></option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="marital-status">Marital-Status:</label>
+        <select id="marital-status" name="data[marital-status]"required>
+          <option value="" disabled selected></option>
+          <option value="single">Single</option>
+          <option value="male">Married</option>
+          <option value="divorced">Divorced</option>
+          <option value="widowed">widowed</option>
+          
+        </select>
+      </div>
+
+
+
+      <div class="form-group">
+        <label for="date-of-birth">Date of Birth:</label>
+        <input type="date" id="date-of-birth" name="data[ate-of-birth]"required>
+      </div>
+
+      
+
+      <div class="form-group">
+        <label for="phone-number">Phone Number:</label>
+        <input type="text" id="phone-number" name="data[phone-number]"required>
+      </div>
+
+      <div class="form-group">
+        <label for="Ghana card-number"> Ghana Card Number:</label>
+        <input type="text" id="Ghana card-number" name="data[Ghana card-number]" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="Social Sucurity-number"> Social Security Number(SSNIT):</label>
+        <input type="text" id="social security-number" name="data[social security-number]"required>
+       </div>
+       
+
+       <div class="form-group">
+        <label for="professional-status">Professioal Status:</label>
+        <select id="professional-status" name="data[professional-status]"required>
+          <option value="" disabled selected></option>
+          <option value="trained">Trained</option>
+          <option value="untrained">Untrained</option>
+        </select>
+      </div>
+
+       <div class="form-group">
+        <label for="type-of-teacher">Type of Teacher:</label>
+        <select id="type-of-teacher" name="data[type-of-teacher]"required>
+          <option value="" disabled selected></option>
+          <option value="class-teacher">Class Teacher</option>
+          <option value="part-Time Teacher">Part Time Teacher</option>
+          <option value="subject Teacher">Subject Teacher</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="basic-subject"> Basic Subject:</label>
+        <input type="text" id="basic-subject" name="data[basic-subject]"required>
+      </div>
+
+      <div class="form-group">
+        <label for="specialisation">Specialisation:</label>
+        <input type="text" id="specialisation" name="data[specialisation]"required>
+      </div>
+
+
+       <div class="form-group">
+        <label for="class">Class:</label>
+        <select id="class" name="data[class]">
+          <option value="" disabled selected></option>
+          <option value="Creche">Creche</option>
+          <option value="Nursery">Nursery</option>
+          <option value="Kindergarten">Kindergarten</option>
+          <option value="Primary">Primary</option>
+          <option value="Basic 6">Basic 6</option>
+          <option value="Basic 7">Basic 7</option>
+          <option value="Basic 8">Basic 8</option>
+          <option value="Basic 9">Basic 9</option>
+        </select>
+      </div>
+
+
+      <div class="form-group">
+        <label for="date of first-appointment">Date of First Appointment:</label>
+        <input type="date" id="date of first-appointment" name="data[date of first-appointment]"required>
+      </div>
+
+      <div class="form-group">
+        <label for="salary-paid-by">Salary Paid By:</label>
+        <select id="salary-paid-by" name="data[salary-paid-by]">
+          <option value="" disabled selected></option>
+          <option value="mmda's">MMDA'S</option>
+          <option value="private">Private</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+       
+      <div class="form-group">
+        <label for="mode-of-qualification">Mode of Qualification:</label>
+        <select id="mode-of-qualification" name="data[mode-of-qualification]">
+          <option value="" disabled selected></option>
+          <option value="college-of-education">College of Education</option>
+          <option value="distance-education ">Distance Education</option>
+          <option value="sandwich-programme">Sandwich-Programme</option>
+        </select>
+      </div>
+
+      <div class="form-actions">
+        <input type="submit" value="Submit" id="submit">
+        <!-- Loading Indicator -->
+        <span id="loading-indicator" style="display:none;">Loading...</span>
+        <!-- Success Message -->
+        <span id="success-message"></span>
+    </div>
+    
+    <!-- Footer Section -->
+    
+<footer class="footer">
+  <div class="footer-image-container">
+      <img src="images/TEACHER2.JPG.jpg" alt="Footer Image" class="footer-image">
+  </div>
+  <div class="footer-text">
+      <p>Developed by Noah - אני אלוהים אני סומך Technologies</p>
+      <p>©2025</p>
+  </div>
+</footer>
+
+    <!-- External JS Script -->
+    <script src="script.js"></script>
+</body>
+</html>
